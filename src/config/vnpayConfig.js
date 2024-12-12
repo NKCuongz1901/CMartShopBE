@@ -1,7 +1,8 @@
 const crypto = require("crypto");
 
 const vnp_PayUrl = "https://sandbox.vnpayment.vn/paymentv2/vpcpay.html";
-const vnp_Returnurl = "http://localhost:3000/UIManager";
+// const vnp_Returnurl = "http://localhost:3000/UIManager";
+const vnp_Returnurl = "https://c-mart-shop-fe.vercel.app/UIManager";
 const vnp_TmnCode = "FYJL2QHA";
 const vnp_HashSecret = "JOWHMKFHFDUHLQQAVQDIJVDNNTDPJSBE";
 const vnp_apiUrl =
