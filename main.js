@@ -31,7 +31,7 @@ app.use(express.json());
 app.use(cookieParser());
 // Cấu hình CORS
 app.use(cors({
-  origin: ['http://localhost:3000', 'http://192.168.1.9:8081', 'https://c-mart-shop-fe.vercel.app'],
+  origin: ['http://localhost:3000', 'http://192.168.1.9:8081', 'https://c-mart-shop-fe.vercel.app', 'https://fe-mart-4e3l.vercel.app'],
   credentials: true
 }));
 // app.use(cors()); 
